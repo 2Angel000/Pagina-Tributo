@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="refresh" content="10">
+  <link rel="stylesheet" href="styles.css">
+  <title>Homenaje</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Más que diciplina programar es Arte</h1>
+  </header>
+  <main id="main">
+    <div id="img-div">
+      <img id="image" src="https://elements-cover-images-0.imgix.net/790945c8-90f0-4ac9-b551-06fa26d4f597?auto=compress%2Cformat&fit=max&w=900&s=21c679857c8dc9aa65cfc280e0cd5dce" alt="Programing">
+      <figcaption id="img-caption">Programar es crear si crees en tí</figcaption>
+      <p id="tribute-info">La programación informática es el arte del proceso por el cual se limpia, codifica, traza y protege el código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que tiene que hacer.<br>
+      La programación informática es una de las habilidades esenciales que aprendes cuando estudias informática
+      Detrás de todos los programas informáticos que conocemos y usamos de manera cotidiana para facilitarnos<br> diversas     actividades de nuestro día con día, existe todo un proceso para poderlos crear. Este proceso es conocido como   programación, conozcamos un poco más sobre lo que conlleva este proceso.
+      <a id="tribute-link" value="tribute-link" href="https://www.netec.com/que-es-programacion" target="_blank">Ver más...</a>
+      </p>
+    </div>
+
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+#image{
+  border: 3px solid #340762;
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  margin: 0px auto;
+  display: block;
+}
+
+header{
+  background: #94C0D3;
+}
+
+h1{
+  font-family: helvetica sans-serif;
+}
+
+#img-div{  
+  height: 100%;
+  margin: 0px auto;
+  display: block;
+  width: 600px;
+}

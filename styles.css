@@ -1,0 +1,75 @@
+#image{
+  display: block;
+  border: 3px solid #340762;
+  max-width: 100%;
+  height: auto;
+  align-content: center;
+  margin: 0px auto;
+  width: max(100px, 18wv);
+}
+
+header{
+  background: #94C0D3;
+  /*  background: #B9A0D7;*/
+  height: auto;
+}
+
+h1{
+  font-family: helvetica sans-serif;
+}
+
+/*para hacer que todo se centre*/
+#img-div{
+  height: 100%;
+  margin: 0px auto;
+  display: block;
+  width: 600px;
+}
+
+h1{
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0px 5px 5px 0px  #B9A0D7;
+}
+
+p{
+  font-family: Arial;
+  font-size: 16px;
+}
+
+#pie{
+  background-color: #7D7B81;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#tribute-info{
+  text-align: justify;
+}
+
+#tribute-link{
+  text-decoration: none;
+  text-decoration: blink;
+  font-style: italic;
+}
+
+figcaption{
+  font-size: 13px;
+  text-align: center;
+  font-family: arial;
+}
+
+#img-caption{
+  align-items: center;
+  display: block;
+}
+
+figcaption::before{
+  content: "Descripción. ";
+}
